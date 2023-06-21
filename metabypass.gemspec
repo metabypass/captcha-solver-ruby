@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name        = "metabypass"
-  spec.version     = '1.0.0'
+  spec.version     = '1.0.1'
   spec.platform    = Gem::Platform::RUBY
   spec.licenses    = ['MIT']
   spec.authors     = ["Metabypass"]

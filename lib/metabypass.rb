@@ -17,7 +17,7 @@ class Metabypass < Auth
 
   def initialize(client_id,client_secret,email,password)
     @end_result = nil
-    @logger_file_path=__dir__+'/../metabypass.log'
+    @logger_file_path='metabypass.log'
     @logger = Logger.new(@logger_file_path)
     super(client_id,client_secret,email,password)
   end
